@@ -1,0 +1,125 @@
+
+/* STYLE */
+/* YLEINEN TAUSTA */
+body {  
+    background-color: #dfe8e2;  
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* SIVUSTON OTSIKKO */
+h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 70px;
+    color: rgba(250, 251, 250, 0.92);
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    font-style:normal;
+    margin-bottom: 30px;
+}
+
+/* OTSIKKO 2 */
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    color: rgb(6, 6, 6);
+}
+
+/* Pääasettelu */
+.sisalto-rivi {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  /* VASEN puoli */
+  .vasen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -30px;
+  }
+  .vasen img {
+    width: 330px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   
+  }
+  .navigaatio-kuva {
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .navigaatio {
+    background-color: #dfdfdb;
+    padding: 15px 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.8;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .nav-toggle {
+    display: none;
+    background-color: #007777;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .navigaatio nav a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navigaatio nav a:hover {
+    color: #ebf2ed;
+}
+  /* Keskella tekstiboxi */
+  .keskella .tekstiboxi {
+    background-color: #dfdfdb;
+    padding: 20px;
+    border-radius: 16px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-size: 18px;
+    line-height: 1.6;
+    color: #0b0b0b;
+  }
+  .tekstiboxi img.sisakuva {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  .oikea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;     
+    margin-top: -30px;
+  }
+  
+  /* OIKEA puoli */
+  .oikea img {
+    width: 330px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+   
+  }
